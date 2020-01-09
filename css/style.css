@@ -1,0 +1,592 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  min-width: 320px;
+  color: #1d1d1d;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+section {
+  padding: 100px 0;
+}
+h3 {
+  font-style: italic;
+  font-size: 42px;
+  font-family: "Palatino Linotype", "Book Antiqus", Palatino, serif;
+}
+h4 {
+  font-weight: 600;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+.scrollToTop {
+  position: fixed;
+  bottom: 60px;
+  right: 50px;
+  border-radius: 4px;
+  font-size: 35px;
+  height: 50px;
+  width: 50px;
+  z-index: 1001;
+  color: #fff;
+  transition: all 0.3s;
+  background-color: rgba(218, 23, 87, 0.75);
+  border: 0;
+  cursor: pointer;
+  display: none;
+}
+.scrollToTop:hover {
+  background-color: #fff;
+  text-decoration: none;
+  outline: none;
+  color: #da1757;
+  border: 1px solid #da1757;
+}
+/* ==================================header================================== */
+.main-header {
+  background: url(../img/main1.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+  position: relative;
+}
+.main-header .navbar-toggler {
+  color: #fff;
+}
+.main-header .navbar-brand,
+.main-header ul li a {
+  color: #fff;
+  font-weight: 600;
+}
+.main-header .navbar-brand {
+  font-size: 41px;
+}
+.main-header ul li a {
+  font-size: 17px;
+}
+.main-header ul li a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  height: 1px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+.main-header ul li a:hover::after {
+  transform: scale(1);
+}
+.main-header-text {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  max-width: 600px;
+  color: #fff;
+  padding: 20px;
+}
+.main-header-buttons {
+  padding: 30px;
+}
+.btn {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+.main-header-buttons .btn {
+  height: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  opacity: 0.8;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  transition: all 0.2s;
+  margin-top: 30px;
+}
+.main-header-buttons .btn:hover {
+  color: #fff;
+  opacity: 1;
+}
+.btn-pink {
+  background-color: #f42267;
+}
+.btn-violet {
+  background-color: #69328e;
+}
+
+/* ==================================.section-watch================================== */
+.section-watch {
+  background: url(../img/world_map.png) center no-repeat;
+  background-size: cover;
+}
+.section-watch h3,
+.section-watch h4 {
+  color: #484848;
+}
+.section-tabs .nav-pills {
+  margin-bottom: 20px;
+}
+.section-tabs .nav-pills .nav-link {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 14px 30px;
+  color: #484848;
+}
+.section-tabs .nav-pills .nav-item .nav-link.active {
+  background-color: #f42267;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+.btn-shadow {
+  box-shadow: 0 10px 0 #ff5990;
+  border-radius: 10px;
+  padding: 10px 25px;
+  transition: all 0.5s;
+}
+.btn-shadow:hover {
+  box-shadow: 0 5px 0 #ff5990;
+  color: #fff;
+  background-color: #da1757;
+}
+/* ==================================section-progress=================================== */
+.section-progress {
+  background-color: #4b2d7f;
+  color: #fff;
+  font-size: 15px;
+  padding: 0;
+}
+.section-progress i {
+  font-size: 70px;
+}
+.section-progress .num {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 30px 0 20px;
+}
+.section-progress h4 {
+  font-size: 30px;
+  height: 72px;
+  overflow: hidden;
+}
+.section-progress .progress-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: all 0.5s;
+}
+
+.section-progress .progress-item:hover {
+  background-color: #40286a;
+}
+/* ==================================section-lets================================== */
+.section-lets {
+  background: url(../img/letsgrow.jpg) center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+/* ==================================section-design================================== */
+.section-design h3,
+.section-design h4 {
+  color: #484848;
+}
+.section-design h3 {
+  font-size: 33px;
+}
+.section-design span i {
+  font-size: 60px;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 32, 0.7) 0%,
+    rgba(68, 26, 130, 0.8) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-left: 15px;
+}
+.section-design h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #484848;
+  margin: 10px 0;
+}
+.section-design p {
+  font-size: 14px;
+}
+.embed-responsive {
+  position: relative;
+  border-radius: 10px;
+}
+/* ==================================section-work================================== */
+.section-work {
+  background-color: #f1f1f1;
+}
+.section-work .nav-pills {
+  margin: 30px 0;
+}
+.gallery-item {
+  margin-bottom: 20px;
+}
+.gallery a img {
+  transition: all 0.5s;
+}
+.gallery a:hover img {
+  box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.75);
+}
+/* ==================================section-reviews================================== */
+.section-reviews {
+  background: url(../img/reviews_bg.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.section-reviews .carousel-caption {
+  top: 5%;
+  bottom: auto;
+  text-align: left;
+}
+.section-reviews .blockquote {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  position: relative;
+  padding-left: 40px;
+  margin-top: 70px;
+}
+.section-reviews .blockquote::before {
+  content: "\201C";
+  float: left;
+  font-size: 150px;
+  font-weight: 500;
+  font-style: italic;
+  color: #f42267;
+  position: absolute;
+  top: -80px;
+  left: -40px;
+}
+.carousel-caption .blockquote-footer {
+  padding-top: 10px;
+}
+/* ==================================section-form================================== */
+.section-form {
+  background: url(../img/form_bg.jpg) center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.section-form h5 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.section-form form {
+  margin-top: 50px;
+}
+.section-form .btn-violet {
+  background-color: #4b2d7f;
+}
+.btn-violet.btn-shadow {
+  box-shadow: 0 5px 0px #a57ee9;
+}
+.btn-violet.btn-shadow:hover {
+  background: #3a2362;
+  box-shadow: 0 1px 0px #a57ee9;
+}
+.section-form .form-control {
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+  border: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+.section-form .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+.section-form .form-control::placeholder {
+  color: #fff;
+}
+
+/* ==================================.footer================================== */
+.footer {
+  background: url(../img/world_map.png) center no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  font-family: "Poppins", sans-serif;
+}
+.footer h5 {
+  font-size: 25px;
+  color: #4b2d7f;
+  font-weight: 700;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.footer ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #171717;
+}
+.footer-images img {
+  margin: 20px;
+  border-radius: 15px;
+}
+/* ==================================.copyright================================== */
+.copyright {
+  background-color: #f6f6f6;
+  padding: 30px 0;
+  font-family: "Poppins", sans-serif;
+}
+.copyright a,
+.copyright span {
+  color: #171717;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+.copyright a:hover {
+  text-decoration: underline;
+}
+.copyright a::after,
+.copyright span::after {
+  content: "\00b7";
+  position: absolute;
+  right: -3px;
+}
+.copyright li:last-child a::after,
+.copyright li:last-child span::after {
+  content: "";
+}
+
+/* ==================================.section-content================================== */
+.section-content {
+  padding: 40px 0;
+}
+.article-preview {
+  border: 1px solid #ccc;
+  padding: 20px;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+}
+.article-preview:hover {
+  box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.6);
+}
+.article-preview h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.article-preview a {
+  color: #484848;
+  transition: all 0.3s;
+}
+.article-preview a:hover {
+  color: #f42267;
+  text-decoration: none;
+}
+.article-date {
+  color: #da1757;
+  font-size: 13px;
+  font-weight: 600;
+}
+.thumbnail {
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 20px 20px 0;
+  float: left;
+  width: 250px;
+  height: 170px;
+}
+.thumbnail_single{
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 20px 20px 0;
+  float: left;
+  width: 100%;
+}
+.article-preview .more {
+  color: #da1757;
+}
+.article-preview .more:hover {
+  text-decoration: underline;
+}
+
+.widget-categories ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.widget-categories ul li::before{
+  content: '\f138';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #da1757;
+  font-size: 14px;
+}
+.widget-categories ul li a{
+  padding-left: 10px;
+  font-size: 14px;
+  color: #2f2f2f;
+  margin-bottom: 10px;
+  display: inline-block;
+  transition: all .2s;
+}
+.widget-categories ul li a:hover{
+  color: #da1757;
+}
+.widget-title{
+  color: #484848;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  position: relative;
+}
+.widget-title::after{
+  content: '';
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 30px;
+  background-color: #da1757;
+}
+/* ==================================.pagination================================== */
+.page-link{
+  color: #da1757;
+  transition: all .5s;
+  padding-left: 1rem;
+  padding-right: 1rem; 
+}
+.page-link:hover{
+  background-color: #da17588c;
+  color: #fff;
+  border-color: #ccc;
+}
+.page-item.active .page-link{
+background-color: #da1757;
+border-color: #da1757;
+}
+/* ------- */
+.navbar-collapse i{
+  font-weight: 700;
+  color: #da1757;
+}
+.article-preview i{
+  font-weight: 700;
+  color: #da1757;
+  font-size: 15px;
+}
+/* ==================================@media================================== */
+@media only screen and (max-width: 992px) {
+  .main-header-text {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  section,
+  .footer {
+    padding: 50px 0;
+  }
+  .copyright {
+    padding: 25px 0;
+  }
+  .section-reviews h3,
+  .section-reviews h4 {
+    font-size: 25px;
+  }
+  .section-reviews .blockquote {
+    font-size: 17px;
+    padding-left: 20px;
+    margin-top: 40px;
+  }
+  .section-reviews .blockquote::before {
+    font-size: 100px;
+    top: -40%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main-header .navbar-nav {
+    background: linear-gradient(45deg, #ed1b33 0%, #442e82 100%);
+    position: relative;
+    z-index: 1;
+    padding: 0 15px;
+  }
+  .main-header-buttons .btn {
+    margin: 0;
+  }
+  .copyright a,
+  .copyright span {
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 768px) {
+    .main-header-text {
+      left: 0;
+      margin: 0px 20px;
+      max-width: 100%;
+    }
+    h3,
+    h4 {
+      font-size: 30px;
+    }
+    .section-progress .progress-item {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .section-reviews .carousel-caption {
+      padding-left: 15px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .main-header-text {
+      top: 90px;
+    }
+    .main-header-buttons .btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .main-header-buttons .btn:last-child {
+      margin-top: 0;
+    }
+    .main-header-buttons {
+      padding: 20px;
+      padding: 0 30px;
+    }
+    .btn-shadow {
+      box-shadow: 0 5px 0 #ff5990;
+      padding: 10px 15px;
+      transition: all 0.5s;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .section-reviews .carousel-caption {
+      position: static;
+      width: 70%;
+      margin: auto;
+      padding-left: 10px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .section-tabs .nav-pills .nav-link {
+      padding: 8px 16px;
+    }
+    .section-tabs .nav-pills .nav-item {
+      width: 100%;
+      text-align: center;
+      padding: 0 50px;
+    }
+    .thumbnail{
+      float: none;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    .main-header .navbar-brand {
+      font-size: 30px;
+    }
+    .section-watch .nav-pills .nav-item {
+      padding: 0 30px;
+    }
+  }
+}
