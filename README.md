@@ -2,7 +2,7 @@
 #### Project was an order from freelance  
 #### Preview: https://cntr.click/22KHcmB
 
-#### Tech stack:
+#### `Tech stack:`
 - Html  
 - CSS  
 - Bootstrap 
