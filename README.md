@@ -1,6 +1,6 @@
 # BlueRex
 #### Project was an order from freelance  
-#### Preview: https://cntr.click/22KHcmB
+#### Preview: https://lcc.click/yNRDC0T
 
 #### `Tech stack:`
 - Html  
