@@ -1,6 +1,8 @@
 # BlueRex
-#### Project was an order from freelance  
-#### Preview: https://lcc.click/yNRDC0T
+
+### [Preview](https://lendmid.github.io/bluerex)
+
+### Project was an order from a freelance  
 
 #### `Tech stack:`
 - Html  
